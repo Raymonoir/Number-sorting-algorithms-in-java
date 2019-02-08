@@ -1,5 +1,16 @@
 package raymond.com.sorting;
 
+/**
+ * 
+ * 
+ * This class will carry out the bubble sort algorithm on a set on numbers.
+ * 
+ * 
+ * @version 03/02/2019
+ * @author Raymond Ward
+ *
+ */
+
 public class BubbleSort extends Sorting
 {
 	private int [] numberArray;

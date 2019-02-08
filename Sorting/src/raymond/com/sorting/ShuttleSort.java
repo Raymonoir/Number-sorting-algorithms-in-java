@@ -1,5 +1,16 @@
 package raymond.com.sorting;
 
+/**
+ * 
+ * 
+ * This class will carry out the shuttle sort sort algorithm on a set on numbers.
+ * 
+ * 
+ * @version 03/02/2019
+ * @author Raymond Ward
+ *
+ */
+
 public class ShuttleSort extends Sorting
 {
 	private int [] numberArray;

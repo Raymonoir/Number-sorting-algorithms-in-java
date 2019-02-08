@@ -1,9 +1,15 @@
 package raymond.com.sorting;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Iterator;
-import java.util.List;
+/**
+ * 
+ * 
+ * This class will carry out the merge sort algorithm on a set on numbers.
+ * 
+ * 
+ * @version 03/02/2019
+ * @author Raymond Ward
+ *
+ */
 
 public class MergeSort extends Sorting 
 {
@@ -18,11 +24,6 @@ public class MergeSort extends Sorting
 	}
 	
 	
-	
-	
-	
-
-	
 	public int [] sort ()
 	{
 		return sort(numbersArray);
@@ -31,8 +32,6 @@ public class MergeSort extends Sorting
 	
 	public int []  sort (int [] array)
 	{
-		
-		//printArray(array);
 		
 		if (array.length == 1)
 		{
